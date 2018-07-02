@@ -12,6 +12,6 @@ class Song
     @@count
   end
   @@artist = []
-  
+
 
 end
