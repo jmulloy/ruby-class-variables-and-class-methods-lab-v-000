@@ -5,11 +5,13 @@ class Song
     @artist = artist
     @genre = genre
     @@count += 1
+    @@artist << @artist
   end
   @@count = 0
   def self.count
     @@count
   end
   @@artist = []
+  
 
 end
