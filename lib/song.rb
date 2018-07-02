@@ -2,6 +2,8 @@ class Song
   def initialize(name)
     @name = name
   end
+
+end
 class Genre
   def initialize(genre)
     @genre = genre
